@@ -129,11 +129,7 @@ package-dir = { "" = "src" }
 where = ["src"]
 
 [project.entry-points.'nomad.plugin']
-
-schema_package_entry_point = "crc1415_examples.schema_packages:schema_package_entry_point"
-
-
-example_upload_entry_point = "crc1415_examples.example_uploads:example_upload_entry_point"
+example_upload_entry_point = "crc1415_examples.example_uploads:crc1415_example_upload_entry_point"
 
 [tool.cruft]
 # Avoid updating workflow files, this leads to permissions issues
