@@ -1,8 +1,8 @@
 from nomad.config.models.plugins import ExampleUploadEntryPoint
 
-example_upload_entry_point = ExampleUploadEntryPoint(
-    title='New Example Upload',
+crc1415_example_upload_entry_point = ExampleUploadEntryPoint(
+    title='CRC1415 Tutorial for Plotting and Fitting with Python',
     category='Examples',
-    description='Description of this example upload.',
-    path='example_uploads/getting_started',
+    description='This upload provides a notebook as a tutorial that demonstrates how to use python for plotting and fitting of data with corporate design of the CRC1415.',
+    path='example_uploads/crc1415_tutorial/*',
 )
